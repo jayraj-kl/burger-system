@@ -38,27 +38,32 @@ burger-system/
 ## Installation
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/yourusername/burger-system.git
    cd burger-system
    ```
 
 2. Install dependencies:
+
    ```
    pip install -r requirements.txt
    ```
-   
+
    Or if using pipenv:
+
    ```
    pipenv install
    ```
 
 3. Run migrations:
+
    ```
    python manage.py migrate
    ```
 
 4. Start the development server:
+
    ```
    python manage.py runserver
    ```
@@ -72,25 +77,3 @@ burger-system/
 3. Add items to your order
 4. Review your order and add any special instructions
 5. Submit your order and receive confirmation
-
-## Screenshots
-
-[Add screenshots of your application here]
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/burger-system](https://github.com/yourusername/burger-system)
